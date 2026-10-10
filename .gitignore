@@ -1,0 +1,5 @@
+# Generated waveform files
+*.vcd
+
+# Compiled simulation executables
+*_sim
