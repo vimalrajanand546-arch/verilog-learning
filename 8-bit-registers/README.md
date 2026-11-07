@@ -3,7 +3,7 @@
 A 8-bit register stores 8 bits of binary data.
 
 
-- It consists of four flip-flops.
+- It consists of eight flip-flops.
 - All flip-flops share a common clock.
 - Data is stored on the negative clock edge.
 - Reset clears the register to 00000000.
