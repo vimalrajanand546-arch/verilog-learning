@@ -6,10 +6,10 @@ module reg8bit(
 );
 always @(negedge clk or negedge preset or negedge rst) begin
     if(!rst) begin
-        y=8'b00000000;
+        y<=8'b00000000;
     end
     else if(!preset) begin
-        y=8'b11111111;
+        y<=8'b11111111;
     end
     else begin
         y<=x;

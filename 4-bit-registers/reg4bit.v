@@ -6,10 +6,10 @@ module reg4bit(
 );
 always @(negedge clk or negedge preset or negedge rst) begin
     if(!rst) begin
-        y=4'b0000;
+        y<=4'b0000;
     end
     else if(!preset) begin
-        y=4'b1111;
+        y<=4'b1111;
     end
     else begin
         y<=x;
