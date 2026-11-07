@@ -11,7 +11,7 @@ A 8-bit register stores 8 bits of binary data.
 
 ## Waveform
 
-The following waveform shows the operation of the 4-bit register,
+The following waveform shows the operation of the 8-bit register,
 including clock, reset, preset, input and output signals.
 
 ![8-bit Register Waveform](waveforms/reg8bit_waveform.png)
